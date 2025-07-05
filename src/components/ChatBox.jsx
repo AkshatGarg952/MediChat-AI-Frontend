@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Mic, MicOff, Loader2, Bot, User, FileText } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://medichat-ai.onrender.com';
 
 const ChatBox = ({ messages, onSendMessage, disabled, sessionId }) => {
   const [inputValue, setInputValue] = useState('');
