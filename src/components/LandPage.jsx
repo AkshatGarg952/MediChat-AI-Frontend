@@ -42,6 +42,7 @@ export default function DocumentChatLanding() {
     setError('');
 
     try {
+      console.log(API_BASE_URL)
       const response = await fetch(`${API_BASE_URL}/user/login`, {
         method: 'POST',
         headers: {
