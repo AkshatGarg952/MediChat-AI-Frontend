@@ -26,7 +26,7 @@ export default function DocumentChatLanding() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_BASE_URL = 'http://127.0.0.1:8000';
+  const API_BASE_URL = 'https://medichat-ai.onrender.com';
 
   const saveToken = (token) => {
     localStorage.setItem('authToken', token);
