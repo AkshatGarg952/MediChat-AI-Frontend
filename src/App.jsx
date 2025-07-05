@@ -17,7 +17,7 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const API_BASE_URL = 'http://localhost:8000';
+  const API_BASE_URL = 'https://medichat-ai.onrender.com';
   
   if(currentSessionId){
   console.log(currentSessionId);
