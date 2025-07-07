@@ -52,7 +52,7 @@ export default function DocumentChatLanding() {
       });
 
       const data = await response.json();
-
+      console.log(data);
       if (response.ok) {
         saveToken(data.token);
         setShowLogin(false);
